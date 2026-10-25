@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
  */
 public final class WirePaymentProcessor {
 
-    static final boolean PARITY_FIX = Boolean.getBoolean("wirepay.parityFix");
+    static final boolean PARITY_FIX = true;
     static final String INSTRUCTING_BIC = "BANKUS33XXX";
 
     private static final Set<String> CURRENCIES = Set.of("USD", "EUR", "GBP", "JPY", "INR", "CHF");
